@@ -46,7 +46,9 @@ export const Video = ({ lessonSlug }:VideoProps) => {
 
   if (!data){
     return (
-      <Spinner className="flex-1" />
+      <div className="flex-1 flex items-center justify-center">
+        <Spinner />
+      </div>
     );
   }
 

@@ -29,7 +29,9 @@ export const Sidebar = () => {
 
   if (!data){
     return (
-      <Spinner className="w-[348px]" />
+      <div className="w-[348px] flex items-center justify-center">
+        <Spinner />
+      </div>
     );
   }
 
